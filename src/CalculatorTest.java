@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class CalculatorTest {
 
     //mapisz program który prosi uzytkownika o 2 liczby, a następnie wykona na nich podstawowe operacje matematyczne
 

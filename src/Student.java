@@ -10,10 +10,10 @@ public class Student {
         System.out.println("Nazywam się: " + imie + " " + nazwisko);
     }
     public void zalogujSie (){
-    System.out.println( "Loguje się za pomocą " + nick);
+    System.out.println( "Loguje się za pomocą: " + nick);
     }
     public void podajNrIndeksu () {
-        System.out.println(" Mój numer indeksu to: " + numerIndeksu);
+        System.out.println("Mój numer indeksu to: " + numerIndeksu);
     }
     public void podajEmail () {
         System.out.println("Mój email to: " + email);
