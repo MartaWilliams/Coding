@@ -1,7 +1,7 @@
 public class AutoTest {
-
+//metoda
     public static void main(String[] args) {
-
+// klasa = Auto, nazwa zmiennej = mercedes, obiekt klasy = new nazwa klasy () = new Auto()
         Auto mercedes = new Auto();
         mercedes.marka = "Mercedes";
         mercedes.model = "Klasa S";

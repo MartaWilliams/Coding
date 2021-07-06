@@ -11,14 +11,18 @@ public class CalculatorTest {
         System.out.println("Ppodaj proszę drugą liczbę ");
         int secondNumber = scanner.nextInt();
 
-        int result = firstNumber + secondNumber;
-        System.out.println("Suma tych liczb wynosi: " + result);
-        int subtraction = firstNumber - secondNumber;
-        System.out.println("Różnica tych licz wybosi: " + subtraction);
-        int multiplication = firstNumber * secondNumber;
-        System.out.println("Iloczyn tych liczb wynosi: " + multiplication);
-        float division = firstNumber / secondNumber;
-        System.out.println("Iloraz tych licz wynosi: " + division);
+        Calculator calculator = new Calculator();
 
+
+        int addition = calculator.add(firstNumber,secondNumber);
+        System.out.println("Suma tych liczb wynosi: " + addition);
+        int subtraction = calculator.sub(firstNumber,secondNumber);
+        System.out.println("Różnica tych licz wybosi: " + subtraction);
+        int multiplication = calculator.mult(firstNumber, secondNumber);
+        System.out.println("Iloczyn tych liczb wynosi: " + multiplication);
+        int division = calculator.div(firstNumber,secondNumber);
+        System.out.println("Iloraz tych licz wynosi: " + division);
+        int modulo = calculator.mod(firstNumber, secondNumber);
+        System.out.println("Modulo tych liczb wynosi: " + modulo);
     }
 }
